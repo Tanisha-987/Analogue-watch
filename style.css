@@ -1,0 +1,82 @@
+body
+{
+    background-image: url(analogue.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main
+{
+    height: 500px;
+    width: 500px;
+    border: 5px solid white;
+    box-shadow: 2px 1px 7px 6px aquamarine;
+    border-radius: 100%;
+    position: relative;
+    top: 120px;
+    left: 200px;
+    box-sizing: border-box;
+}
+
+.t
+{
+    position: absolute; 
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 1px 4px aquamarine;  
+}
+
+#t12{ top: 0px; left: 230px; }    
+#t1 {  top: 40px; right: 110px;} 
+#t2 {  top: 130px; right: 25px;} 
+#t3 {  top: 230px; right: 0px;}
+#t4 {   bottom: 130px; right: 30px;}
+#t5 {  bottom: 40px; right: 115px;}
+#t6 {  bottom: 0px; left: 230px;}
+#t7 {  bottom: 40px; left: 115px;}
+#t8 { bottom: 130px; left: 30px;}
+#t9 {  top: 230px; left: 0px;}
+#t10{  top: 130px; left: 25px;}
+#t11{  top: 40px; left: 110px;}
+
+.center
+{
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    border-radius: 100%;
+    bottom:  50%;
+    right: 50%;
+}
+
+
+.same
+{
+    position: absolute;
+    transform-origin: bottom center;
+    left: 50%;
+    bottom: 50%;
+    z-index: -1;  
+}
+
+#hrs
+{
+    width: 4px;
+    height: 130px;
+    background-color: white;    
+}
+
+#sec
+{
+    height: 200px;
+    width: 4px;
+    background-color: red;
+}
+
+#min
+{
+    height: 140px;
+    width: 4px;
+    background-color: greenyellow;
+}
